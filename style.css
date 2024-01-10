@@ -1,19 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
-
-*
-{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
 }
- 
-body{
-    font-family: 'Poppins', sans-serif; ;
+
+body {
+    font-family: 'Salsa', cursive;
 }
 
 html{
     scroll-behavior: smooth;
 }
+#desktop-nav {
+    background-color: black;
+    padding: 10px; /* Adjust padding as needed */
+  }
+  
+  #desktop-nav .logo {
+    color: white;
+  }
+  
+  #desktop-nav .nav-links {
+    list-style: none;
+  }
+  
+  #desktop-nav .nav-links li {
+    display: inline;
+    margin-right: 15px; /* Adjust spacing between navigation items as needed */
+  }
+  
+  #desktop-nav .nav-links li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  #desktop-nav .nav-links li a:hover {
+    text-decoration: underline;
+  }
 p{
     color: rgb(85 ,85, 85);
 }
@@ -75,19 +99,24 @@ section{
 }
 
 /*profile*/
+/* Existing CSS */
 
-#profile{
+#profile {
     cursor: default;
     display: flex;
     justify-content: center;
     gap: 5rem;
-    height: 80vh;
+    height: 100vh;
+    padding-top: 9px; /* Adjust the value as needed */
 }
+
+/* Existing CSS continues */
+
 
 .section__pic-container{
     display: flex;
-    height: 50%;
-    width: 50%;
+    height: 5%;
+    width: 5%;
     margin:0 0;
 }
 
@@ -255,7 +284,7 @@ section{
 
 .article{
     display: flex;
-    width: 10rem;
+    width: 5rem;
     justify-content: space-around;
     gap: 0.5rem;
 }
@@ -274,7 +303,7 @@ section{
 
 #projects {
     align-items: right;
-    padding-top: 2cm;
+    /*padding-top: 10cm;*/
     position: relative;
     cursor: default;
 }
@@ -287,7 +316,7 @@ section{
 .project-img{
     border-radius: 2rem;
     width: 75%;
-    height: 75%;
+    height: 50%;
 
 }
 
