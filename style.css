@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+   
 }
 
 body {
@@ -12,6 +13,7 @@ body {
 html{
     scroll-behavior: smooth;
 }
+  
 #desktop-nav {
     background-color: black;
     padding: 10px; /* Adjust padding as needed */
@@ -314,10 +316,9 @@ section{
 }
 
 .project-img{
-    border-radius: 2rem;
-    width: 75%;
-    height: 50%;
-
+    border-radius: 1.5rem;
+    width: 50%;
+  
 }
 
 .project-title{
@@ -326,7 +327,7 @@ section{
 }
 
 .project-btn{
-    color: white;
+    color: rgb(242, 240, 240);
     border-color: rgb(163,163,163);
 
 }
